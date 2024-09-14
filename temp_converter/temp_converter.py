@@ -10,10 +10,10 @@ Class Section:    EN
 #def c2f(c):
 #    return (c * 9 / 5) + 32 #Celsius is inputted and Farenheit is the output.
 def f2c_raw(f):
-    return (f - 32 * 5) / 9 #Farenheit is the input, and Celsius is the output. 
+    return (f - 32) * 5 / 9 #Farenheit is the input, and Celsius is the output. 
 
 def f2c_op(f):
-    return (f - 32 * 5) / 9
+    return (f - 32) * 5 / 9
 
 def main():
     f = 0           # input, setting the base value for Farenheit.
