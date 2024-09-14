@@ -9,12 +9,19 @@ Changes:
     20240908 - Added Parenthesis, and comments.
     """
 # process
-def c2f(c):
-    return (c * (9 / 5)) + 32
+#def c2f(c):
+#    return (etc)
 
-def main(cel):
-    return c2f(cel)
+def main():
+    f = 0
+    c = f2c(f)
+    print(f"{f}F is {c} C")
+    if__name__ == "__main__":
+        main()
     
-if __name__ == "__main__":
-    cel = 100        # input
-    print(main(cel))  # output
+def f2c_raw(f): #IGNORE ME
+	return f - 32 * 5 / 9
+def f2c_op(f): 
+	return f - 32 * 5 / 9 #TODO edit me
+
+
