@@ -8,19 +8,19 @@ Class Section:    EN
     """
 # process
 #def c2f(c):
-#    return (etc)
+#    return c * 9 / 5 + 32
+def f2c_raw(f):
+    return f - 32 * 5 / 9
+
+def f2c_op(f):
+    return (f - 32) * 5 / 9
 
 def main():
-    f = 0
+    f = 0           # input
     c = f2c(f)
     print(f"{f}F is {c} C")
-	
-if __name__ == “__main__”:
-	main()
 
-def f2c_raw(f): #IGNORE ME
-	return f - 32 * 5 / 9
-def f2c_op(f): 
-	return f - 32 * 5 / 9 #TODO edit me
+if __name__ == "__main__":
+    main()
 
 
