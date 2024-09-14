@@ -16,7 +16,7 @@ def main():
     f = 0
     c = f2c(f)
     print(f"{f}F is {c} C")
-    if__name__ == "__main__":
+if__name__ == "__main__":
         main()
     
 def f2c_raw(f): #IGNORE ME
